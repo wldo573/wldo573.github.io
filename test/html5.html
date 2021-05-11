@@ -21,16 +21,68 @@
     <!--HTML 레이아웃 구조
     header, nav, section, article, aside, footer
     -->
+    <style>
+        /* css:cascade style sheet 개층형 스타일 표*/
+        header, nav, section,  aside, footer{
+            border:1px dotted black;
+        }
+        header > h1,footer > h1, article>h1, section > h1, aside >h1{text-align:center;}
+        nav { display: block; height:60px;}
+        nav > ul > li {
+            float:left; margin-right: 50px;
+        }
+        div.contents {
+            /*내부의 컨텐츠 가준되는 외부 요소에 관계형 포지션 추가 */
+            position:relative;
+            overflow:hidden;
+        }
+        section {
+            width:79%; display:inline-block;
+            }
+            section > article {
+                /* margin은 내부테두리 padding은 외부테두리*/
+                margin: 10px 30px; 
+                border: 1px solid skyblue;
+                }
+        aside { 
+            width: 20%;
+            display:inline-block;
+            right:0px;
+            height:100%;
+            position:absolute;
+            }
+    </style>
     <header>
-        <h1>헬로 HTML</h1>
+        <h1>Header</h1>
     </header>
     <nav>
         <ul>
-            <li>menu1</li>
-            <li>menu2</li>
-            <li>menu3</li>
+            <li><a href="#">menu1</a></li>
+            <li><a href="#">menu2</a></li>
+            <li><a href="#">menu3</a></li>
         </ul>
     </nav>
+    <div class ="contents">
+        <section>
+            <h1>section</h1>
+            <article>
+                <h1>article1</h1>
+            </article>
+            <article>
+                <h1>article2</h1>
+            </article>
+            <article>
+                <h1>article3</h1>
+            </article>
+        </section>
+        <aside>
+            <h1>aside</h1>
+        </aside>
+    </div>
+    <footer>
+        <h1>footer</h1>
+    </footer>
+
     <!--테이블 태그 제어: 셀병합
     table,tr(table row줄), td(table data칸)-->
     <table>
