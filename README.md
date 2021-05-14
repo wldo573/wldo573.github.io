@@ -14,7 +14,7 @@
 -로고:https://pixabay.com/ko/illustrations/%ED%8A%B8%EB%A6%AC-%EC%83%9D%EB%AA%85%EC%9D%98-%EB%82%98%EB%AC%B4-%EC%95%A1%EC%9E%90-%EC%98%81%EC%A0%81-5334823/
 -슬라이드 이미지:https://pixabay.com/ko/illustrations/%EC%B1%85-%EC%98%A4%EB%9E%98-%EB%90%9C-%EA%BF%88-%EA%B3%B5%EC%83%81-863418/
 -No이미지:https://pixabay.com/ko/photos/no-%EB%B9%84%EC%B9%98-%EB%AA%A8%EB%9E%98-%EA%B8%B0%EC%82%AC-3761956/
--작업폴도를 나누는 이유 : 시청(관공서), 대학, 기업의 웹프로그램(사이트)제작 할때, 1년간 무상 유지보수 그 이후 보통 2천, 리뉴얼 4천 비용이 책정
+-작업폴드를 나누는 이유 : 시청(관공서), 대학, 기업의 웹프로그램(사이트)제작 할때, 1년간 무상 유지보수 그 이후 보통 2천, 리뉴얼 4천 비용이 책정
 -home폴더 기존작업물, 리뉴얼 home에 덮어씌우는 방식이 아니고, 리뉴얼 할때 home2022 폴더에 작업을 하게 됨.
 -jquery코어 다운받기: min버전(압축-속도UP), 일반버전(개발-속도Normal)
 -jQuery 미처리 작업은 다음주하고,
