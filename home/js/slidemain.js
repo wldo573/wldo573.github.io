@@ -14,6 +14,7 @@ function play_w(directw) { // 좌우로 슬라이드되는 함수선언(왼쪽|�
 		slideNum = directw; // string으로 형 변환
 	}
 
+	
 	// rollingbtn클래스 영역안쪽의 li 태그에서 클래스 seq인것 3개를 each함수로 반복(3번박복)
 	// 결과는 모든 슬라이드 버튼을 작은 정원으로 바꾸는 명령
 	$('.rollingbtn').find('li.seq a').each(function(){
