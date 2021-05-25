@@ -15,6 +15,11 @@
 -board_view.html댓글 AdminLTE의 페이징 UI추가예정ㅇ
 -반응형 서브 페이지들(로그인,회원가입,마이페이지).
 -관리자단 AdminLTE적용
+#### 2210525(화) 작업.
+-css:계층:조부 > 부 > 본인(timnline) > 자식(collapse) > 손자(time-label) > 증손자
+-board_view.html 댓글 AdminLTE3의 메이징 UI 추가 OK
+-반응형 서브페이지들(로그인,회원가입,마이페이지).
+-관리자단 AdminLTE적용
 #### 20210524(월) 작업예정
 -시간형식(type):date(년월일),dateTime(년월일시분초),TimeStampt(년월일시분초)
 -1970년 생일:타임스탬프가 1970년1월1알 부터 현재까지의 초를 계산한 결과 값.
