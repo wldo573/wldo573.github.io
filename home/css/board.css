@@ -321,6 +321,7 @@ input::placeholder { color: #999; } /* IE(Internet Explore)브라우저용 스�
 	border: 1px solid #ccc;
 	margin-left: 1px;
 }
+
 .app_content input {
 	border: none;
 	/*width: 100% !important;*/
