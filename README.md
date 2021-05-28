@@ -15,7 +15,15 @@
 -board_view.html댓글 AdminLTE의 페이징 UI추가예정
 -반응형 서브 페이지들(로그인,회원가입,마이페이지).
 -관리자단 AdminLTE적용
+#### 20210531(월)작업예정
+-ERD기준으로 게시판 UI수정합니다
+-관리자단 AdminLTE적용-스프링시간 UI디자인 시간 선택후 아래 작업 진행예정
 #### 20210528(금) 작업예정
+
+-뒤로가기를 허용하면 게시물 테러가 가능합니다
+
+-뒤로가기를 허용하지 않게 체이지를 이용하는 방식(JS에서는 location.replace함수 사용 )
+-뒤로가기를 허용하는 함수 (JS에서는 location.href= "" 사용)
 -관리자단 admin/board_write.html, board_view.html(댓글Ajax처리)
 -대시보드 home.html(최근 회원가입정보, 최근 게시물정보)
 -관리자단 AdminLTE적용 -스프링시간|UI디자인시간 선택후 아래 작업진행예정
