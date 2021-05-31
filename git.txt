@@ -1,2 +1,2 @@
 푸시가 안될땐
-새터미널->git add.->git commit -m 'add'
+새터미널->git add .->git commit -m 'add'-> git push origin master --force
