@@ -15,7 +15,14 @@
 -board_view.html댓글 AdminLTE의 페이징 UI추가예정
 -반응형 서브 페이지들(로그인,회원가입,마이페이지).
 -관리자단 AdminLTE적용
-#### 20210601
+#### 20210601(화)작업예정
+-ERD기준으로 게시판UI 마무리합니다 -border_write.html부터시작
+-오늘부터는 vs code ->이클립스에서 작업합니다.
+-관리자단 AdminLTE적용-스프링시간 선택 후 아래 작업진행예정
+-(회원관리CRUD-jsp,게시판생성관리CRUD-jsp)
+-html을 분해(1개의 페이지를 2개로 분해,1.header.jsp(메뉴를 공통),2footer.jsp(공통))
+-이클립스로 작업한html내용을 -> resource 폴더(admin,home.root파일꺼지)로 배치
+-스프링 작업의 시작
 #### 20210531(월)작업예정
 -ERD기준으로 게시판 UI수정합니다
 -관리자단 AdminLTE적용-스프링시간 UI디자인 시간 선택후 아래 작업 진행예정
